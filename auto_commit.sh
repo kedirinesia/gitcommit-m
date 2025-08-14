@@ -8,7 +8,7 @@ if [ "$BRANCH" == "HEAD" ] || [ -z "$BRANCH" ]; then
 fi
 
 # Commit 100 kali
-for i in {1..20}
+for i in {1..146}
 do
     echo "Auto change $i" >> auto_commit_log.txt
     git add .
